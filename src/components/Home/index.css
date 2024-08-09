@@ -1,0 +1,37 @@
+.home-con{
+    display: flex;
+    background-color: #ffffff;
+    height: 100vh;
+
+}
+.sidebar-closed{
+    width: 7vw;
+    height: 100vh;
+    position: relative;
+}
+.sidebar-opened{
+    width: 20vw;
+    height: 100vh;
+    position: relative;
+}
+.body-container-without-full-sidebar{
+    width: 93vw;
+    height: 97vh;
+    position: relative;
+    background-color: #ffffff;
+    padding: "20px";
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.body-container-with-full-sidebar{
+    width: 80vw;
+    height: 97vh;
+    position: relative;
+    background-color: #ffffff;
+    padding: "20px";
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    text-align: center;
+}
